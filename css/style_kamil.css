@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 #Welcome {
     width: 100vw;
     background-color: #eaefe9;

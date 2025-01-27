@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(45deg, #4b79a1, #283e51);
+    background: linear-gradient(45deg, #3A3960, #154168);
     color: white;
     padding: 0.8rem 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -48,7 +48,7 @@ body {
 }
 
 .dropdown-menu {
-    background: linear-gradient(45deg, #4b79a1, #283e51);
+    background: linear-gradient(45deg, #3a3861, #144168);
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);

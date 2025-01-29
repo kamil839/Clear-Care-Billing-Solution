@@ -1,11 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clear Care Billing | About</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About CCBS</title>
+    <link rel="stylesheet" href="/css/style_about.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Main Navbar -->
+    <nav
+      class="navbar navbar-expand-xxl"
+      style="position: sticky; top: 0; z-index: 1; width: 100%"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/ccbs.png" alt="Logo" />
+        </a>
+
+        <div class="d-flex align-items-center">
+          <span class="contact-number">530-868-6944</span>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"
+                ><i class="fas fa-info-circle"></i> About CCBS</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-briefcase"></i> Our Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="service_credential.html"
+                    >Credentialing & Contracting</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="service_clearinghouseSetup.html"
+                    >EHR, PM & Clearing House Setup</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="service_transactionSetup.html"
+                    >Electronic Transaction</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="service_revenueCycle.html"
+                    >Revenue Cycle Management</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-check-circle"></i> Compliances</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-newspaper"></i> News & Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-star"></i> Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-phone"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+
+    <header>
+      <h2 style="padding: 0.2rem">About CC Billing Solutions</h2>
+    </header>
+    <main>
+      <section class="who-we-are">
+        <h2>Who We Are?</h2>
+        <p>
+          We are a dedicated team with the goal of providing our clients with a
+          comprehensive end-to-end solution that is 100% transparent throughout
+          the process. We combine our medical billing expertise with project
+          management and IT support services.
+        </p>
+        <p>
+          With over 8 years of experience, we relentlessly pursue all healthcare
+          billing claims owed to your practice. Turn to Zmed Solutions for your
+          billing services.
+        </p>
+      </section>
+      <section class="expertise">
+        <h2>Our Expertise</h2>
+        <ul>
+          <li>Personalized Attention</li>
+          <div class="progress-bar">
+            <div></div>
+          </div>
+          <li>Clean Claim Rate</li>
+          <div class="progress-bar1">
+            <div></div>
+          </div>
+          <li>Denial Management</li>
+          <div class="progress-bar2">
+            <div></div>
+          </div>
+          <li>Client Reporting</li>
+          <div class="progress-bar3">
+            <div></div>
+          </div>
+          <li>Client Satisfaction</li>
+          <div class="progress-bar4">
+            <div></div>
+          </div>
+        </ul>
+      </section>
+    </main>
+
+    <div class="director-desk">
+      <h2>From the Director of Operations' Desk</h2>
+      <p class="hidden" id="content">
+        CCBS Solutions is one of the few Billing Companies that provides
+        complete Medical Billing Services as well as Turn-Key practice
+        management solutions. We offer affordable EHR-EMR setup, credentialing,
+        and medical billing services.
+        <br /><br />
+        Our medical billing specialists provide rigorous and efficient medical
+        billing services, allowing you to focus on your practice's everyday
+        operations.
+      </p>
+      <h1 style="font-size: 20px; font-weight: bolder; color: #373660">
+        Mark Smith
+      </h1>
+      <h4 style="font-size: 12px; font-weight: lighter; color: #fee906">
+        Director, Operations
+      </h4>
+      <button class="expand-btn" id="toggle-btn">Read More</button>
+    </div>
+
+    <div class="stats-container">
+      <div class="stat">
+        <div class="stat-icon"><img src="1.jpg" alt="States" /></div>
+        <div class="stat-number">35</div>
+        <div class="stat-label">States</div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon"><img src="2 (1).jpeg" alt="Clients" /></div>
+        <div class="stat-number">912</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon"><img src="1.jpg" alt="Experts" /></div>
+        <div class="stat-number">586</div>
+        <div class="stat-label">Experts</div>
+      </div>
+    </div>
+
+    <!-- Why Choose Us  -->
+
+    <section class="container">
+      <div class="content">
+        <h1 style="color: #373660">WHY CHOOSE US?</h1>
+        <p style="text-align: center">
+          With so many medical billing companies to select from, you may be
+          wondering what sets Zmed Solutions apart. Our professional Medical
+          Billing Specialists are one-of-a-kind for a variety of reasons,
+          allowing us to tailor our services to different health care providers
+          such as chiropractors, physical therapists, mental health providers,
+          and more.
+        </p>
+        <div class="image-container">
+          <img src="whychooseus.jpeg" alt="Why Choose Us Image" />
+        </div>
+        <div class="benefits">
+          <div class="benefit" data-benefit="Income Growth">
+            <i class="fas fa-chart-line"></i>
+            <h2>Income Growth</h2>
+            <p>
+              Our clients experience a 10% to 20% boost in their practice
+              income, ensuring more revenue and fewer account receivables.
+            </p>
+          </div>
+          <div class="benefit" data-benefit="Rapid Payments">
+            <i class="fas fa-money-check-alt"></i>
+            <h2>Rapid Payments</h2>
+            <p>
+              We pursue account receivables efficiently, minimizing claim
+              denials and frequent delays for a seamless billing experience.
+            </p>
+          </div>
+          <div class="benefit" data-benefit="Fewer Write-offs">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <h2>Fewer Write-offs</h2>
+            <p>
+              Our expertise ensures that insurance adjustments are minimized,
+              allowing you to retain more of your rightful earnings.
+            </p>
+          </div>
+          <div class="benefit" data-benefit="Organizational Stability">
+            <i class="fas fa-balance-scale"></i>
+            <h2>Organizational Stability</h2>
+            <p>
+              With no long-term contracts, you can use our services as needed,
+              ensuring flexibility and peace of mind for your practice.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A word From CEO -->
+    <div class="card-container">
+      <div class="card">
+        <h1>A Word from CEO</h1>
+        <p>
+          As the healthcare industry evolves, so do the challenges in billing,
+          compliance, and reimbursement...
+        </p>
+        <div class="ceo-name">DANIEL WHITE</div>
+        <div class="ceo-title">Chief Executive Officer</div>
+      </div>
+    </div>
+
+    <!-- Team Members -->
+
+    <section class="team-section">
+      <h1 class="team-title">OUR TEAM IS OUR MOST VALUABLE ASSET!</h1>
+      <p class="team-description">
+        About Us - Our team at <span class="company-name">CCBS</span> is our
+        biggest asset. Comprised of experienced professionals in medical
+        billing, customer service, and IT, they work together to provide
+        top-notch service and support to our clients. Their knowledge,
+        dedication, and commitment are key to our success.
+      </p>
+
+      <div class="team-grid">
+        <!-- Each team member card -->
+        <div class="team-member">
+          <h3>ATIF WASEEM</h3>
+          <p>ASSISTANT DIRECTOR, OPERATIONS</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (123) 456-7890"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: atif@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 302"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>JOHN MATTHEW</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>Muzaffar Hameed</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>Tayyab Masood</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>Israar Ahmed</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>Danish Mughal</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>Fazal Abbas</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>Muhammad kamil</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>Tayyab Sajjad</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+          <h3>Muhammad Irfan</h3>
+          <p>ASSISTANT DIRECTOR, CLIENT SUPPORT</p>
+          <div class="icons">
+            <span class="icon phone" data-label="Phone: (987) 654-3210"
+              ><i class="fas fa-phone"></i
+            ></span>
+            <span class="icon email" data-label="Email: john@example.com"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="icon address" data-label="Office: Room 204"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+          </div>
+        </div>
+        <!-- Add more team members as needed -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <!-- About section -->
+      <div class="footer-section">
+        <a class="navbar-brand" href="index.html">
+          <img src="/images/ccbs.png" alt="Logo" />
+        </a>
+        <p>
+          We are a dedicated team with the goal of providing our clients with an
+          end-to-end solution that is 100% transparent throughout the process.
+        </p>
+        <button class="footer-button">Get Free Consultation!</button>
+      </div>
+
+      <!-- Contact information section -->
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p>
+          <strong>Address:</strong> 4550 Central Ave NE Lot 1120, Minneapolis,
+          MN 55421-2467
+        </p>
+        <p><strong>Business Hours:</strong> Mon - Fri : 8 AM - 5 PM CST</p>
+        <p><strong>Phone:</strong> <a href="tel:5308686944">530-868-6944</a></p>
+      </div>
+
+      <!-- Services section with links -->
+      <div class="footer-section">
+        <h3>Services</h3>
+        <a href="service_credential.html">Credentialing and Contracting</a>
+        <a href="service_clearinghouseSetup.html"
+          >EHR, PM & Clearing House Setup</a
+        >
+        <a href="service_transactionSetup.html">Electronic Transactions</a>
+        <a href="service_revenueCycle.html">Revenue Cycle Management</a>
+      </div>
+
+      <!-- Recent news section -->
+      <div class="footer-section">
+        <h3>Recent News</h3>
+        <a href="#"
+          >Top-Notch Medical Billing Services in California - Jan 17, 2025</a
+        >
+        <a href="#"
+          >Top-Notch Billing Services in Oregon: Maximizing Healthcare
+          Efficiency - Jan 17, 2025</a
+        >
+        <a href="#"
+          >Perfect Medical Billing Solutions in Washington - Jan 16, 2025</a
+        >
+      </div>
+
+      <!-- Social media links section -->
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#" title="Facebook"
+            ><i class="fab fa-facebook"></i>FaceBook</a
+          >
+          <a href="#" title="Instagram"
+            ><i class="fab fa-instagram"></i>Instagram</a
+          >
+        </div>
+      </div>
+
+      <!-- Footer bottom section -->
+      <div class="footer-bottom">
+        <p>&copy; 2025 CC Billing Solutions LLC. All Rights Reserved.</p>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+      </div>
+    </footer>
+    <!-- Read More Trigger by Java  -->
+
+    <script>
+      document
+        .getElementById("toggle-btn")
+        .addEventListener("click", function () {
+          const content = document.getElementById("content");
+          const button = document.getElementById("toggle-btn");
+
+          if (content.classList.contains("hidden")) {
+            content.classList.remove("hidden");
+            button.textContent = "Read Less";
+          } else {
+            content.classList.add("hidden");
+            button.textContent = "Read More";
+          }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

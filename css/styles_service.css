@@ -14,11 +14,23 @@ body {
     padding: 40px 20px;
     position: relative;
 }
-
+.service-consultation-banner{
+    background-color: #eaefe9;
+    color: #3A3960;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+}
 .consultation-banner h2 {
     margin: 0;
     font-size: 28px;
     line-height: 1.5;
+}
+.service-consultation-banner h2{
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 600;
 }
 
 .consultation-banner button {

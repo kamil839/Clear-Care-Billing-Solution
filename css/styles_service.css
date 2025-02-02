@@ -218,6 +218,93 @@ body {
     line-height: 1.8;
     font-size: 16px;
 }
+.serv{
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.tit {
+margin-top: 60px;
+text-align: center;
+padding-bottom: 10px;
+color: rgb(9, 9, 102);
+}
+.tit h2{
+font-weight: 700;
+}
+.forsicon {
+display: flex;
+align-content: center;
+align-items: center;
+width: 100%;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+.specialisthead {
+display: block;
+max-width: 100%;
+border-style: solid;
+border-bottom-width: 5px;
+width: 250px;
+margin: 0px auto;
+border-color: #e9b712;
+border-top: 0;
+border-right: 0;
+border-left: 0;
+margin-bottom: 30px;
+}
+
+.sicon {
+width: 90px;
+height: 90px;
+background-color: white;
+color: #e9b712;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+border: solid rgb(8, 8, 91) 4px;
+margin-right: none; 
+transition: transform 0.7s ease-in-out
+}
+.iconbox{
+width: 30%;
+
+}
+.iconbox h4{
+font-weight: 700;
+font-size: 19px;
+padding-top: 10px;
+color: rgb(8, 8, 91);
+}
+#borderchange{
+border: solid #e9b712 4px;
+}
+.sicon:hover{
+background-color: rgb(8, 8, 91);
+transform: rotate(360deg);
+}
+#borderchange:hover{
+background-color: #e9b712;
+}
+@media (max-width: 760px) {
+.forsicon {
+flex-direction: column; /* Stack items vertically */
+align-items: center;
+padding-top: 5px;
+padding-bottom: 1px;
+}
+
+.iconbox {
+width: 100%; /* Full width */
+text-align: center;
+margin-bottom: 30px; /* Spacing between icon boxes */
+}
+.specialisthead{
+margin-bottom: 40px;
+}
+}
 
 /* Animations */
 @keyframes pulse {

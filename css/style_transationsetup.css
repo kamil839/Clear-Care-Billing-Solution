@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Oswald;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  /* font-weight: 700; */
+  color: rgb(47, 40, 91);
+  font-size: clamp(2.5rem, 3.7vw, 5rem);
+
+  /* font-size: 1rem; */
+}
+
+.ET {
+  min-width: 100%;
+  height: 8rem;
+  background-color: darkslateblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.ET-content {
+  width: 80%;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.588);
+  h1 {
+    color: white;
+    font-size: clamp(1.5rem, 2.5vw, 5rem);
+  }
+  a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.588);
+    font-size: clamp(0.8rem, 1vw, 5rem);
+  }
+
+  @media (width <= 992px) {
+    flex-direction: column;
+  }
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  grid-auto-rows: 1fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.sidebar {
+  /* background-color: brown; */
+  box-sizing: border-box;
+  margin: 2rem 0.5rem;
+}
+
+.sidebar h3 {
+  /* font-weight: 700; */
+  color: rgb(47, 40, 91);
+}
+
+.services {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.8rem;
+}
+
+.services-list {
+  list-style-type: none;
+  margin: 0 1rem;
+  padding: 0;
+}
+.services-list li {
+  padding: 12px;
+  border-bottom: 1px solid #000000;
+  font-size: 1.1rem;
+}
+.services-list li a {
+  text-decoration: none;
+  color: #494949;
+
+  display: block;
+}
+.services-list li a:hover {
+  color: rgb(255, 170, 0);
+}
+
+.question-box {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 2rem;
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.8rem;
+}
+
+.question-box input,
+.question-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#agree {
+  width: fit-content;
+  display: inline;
+}
+
+label {
+  display: inline;
+}
+
+.question-box button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+.question-box button:hover {
+  background-color: #e68900;
+}
+
+.description {
+  /* background-color: lightseagreen; */
+  box-sizing: border-box;
+  margin: 2rem 0.5rem;
+  padding: 2rem;
+}
+
+.description h2 {
+  font-size: clamp(1.5rem, 2vw, 5rem);
+}
+
+.HWW {
+  position: relative;
+  overflow: hidden;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.HWW-item {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.line {
+  border: 1px solid darkslateblue;
+  height: 60%;
+  width: 1px;
+  position: absolute;
+  top: 4rem;
+  left: 3.95rem;
+  z-index: -1;
+}
+
+.icon {
+  /* background-color: #ff9800; */
+  border-radius: 5%;
+  font-size: 1.5rem;
+  font-weight: 100;
+  height: 4rem;
+  width: 4rem;
+  padding-top: 1.2rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+.overlay {
+  height: 4rem;
+  width: 4rem;
+  background-color: darkslateblue;
+  position: absolute;
+  top: 1.8rem;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+
+#first {
+  border-radius: 1rem 1rem 0 1rem;
+}
+
+#second {
+  border-radius: 0 1rem 0 1rem;
+}
+
+#third {
+  border-radius: 0 1rem 1rem 1rem;
+}
+
+.text-div h4 {
+  margin: 1rem 0;
+  /* font-weight: 700; */
+  font-size: clamp(1.3rem, 1.2vw, 5rem);
+  color: #ff9900;
+}
+
+.text-div p {
+  text-align: justify;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.carousel {
+  max-width: 80%;
+  /* background-color: midnightblue; */
+  height: 13rem;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  /* height: 120px;
+  width: 300px; */
+  object-fit: contain;
+  aspect-ratio: 4/1;
+}
+
+.carousel-indicators {
+  width: 80%;
+}
+
+.carousel-indicators li {
+  border: 1rem solid darkslateblue;
+  padding: 0.2rem 0;
+  border-radius: 50%;
+  transform: scale(0.2);
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 2rem 0 0 0;
+
+  &:hover {
+    border: 1rem solid rgb(121, 111, 190);
+  }
+}
+
+.second {
+  /* height: 30vh; */
+  display: none;
+}
+
+.consult {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.consult h2 {
+  font-size: clamp(1.8rem, 3vw, 5rem);
+}
+
+.consult h1 {
+  font-size: clamp(2.5rem, 3.7vw, 5rem);
+}
+.consult button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 12px 2.8rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: clamp(1rem, 1.3vw, 2rem);
+  font-weight: 700;
+  margin: 1rem auto;
+
+  &:hover {
+    background-color: #e68900;
+  }
+}
+
+@media (width <= 992px) {
+  .second {
+    display: block;
+  }
+  .first {
+    display: none;
+  }
+  #container {
+    display: block;
+  }
+  .description {
+    /* width: calc(100% - 1rem); */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+
+@media (width <= 460px) {
+  .line {
+    height: 65%;
+  }
+
+  .carousel-indicators li {
+    display: none;
+  }
+}

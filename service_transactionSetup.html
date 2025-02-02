@@ -1,12 +1,593 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clear Care billing | Electronic Transactions Setup</title>
-    <link rel="stylesheet" href="/css/nav.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/style_transationsetup.css">
+    <link rel="stylesheet" href="/css/style_footer.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Main Navbar -->
+    <nav
+      class="navbar navbar-expand-xxl"
+      style="position: sticky; top: 0; z-index: 1; width: 100%"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/ccbs.png" alt="Logo" />
+        </a>
+
+        <div class="d-flex align-items-center">
+          <span class="contact-number">530-868-6944</span>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"
+                ><i class="fas fa-info-circle"></i> About CCBS</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-briefcase"></i> Our Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="service_credential.html"
+                    >Credentialing & Contracting</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="service_clearinghouseSetup.html"
+                    >EHR, PM & Clearing House Setup</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="service_transactionSetup.html"
+                    >Electronic Transaction</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="service_revenueCycle.html"
+                    >Revenue Cycle Management</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-check-circle"></i> Compliances</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-newspaper"></i> News & Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-star"></i> Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><i class="fas fa-phone"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="ET">
+      <div class="ET-content">
+        <h1>ELECTRONIC TRANSACTIONS</h1>
+        <div class="nav-anchor">
+          <a href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+          <a href="services.html">Services</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+          <a href="#">Electronic Transactions</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="container">
+      <div class="sidebar first">
+        <div class="services">
+          <h3>OUR SERVICES</h3>
+          <ul class="services-list">
+            <li><a href="service_credential.html">Credentialing and Contracting</a></li>
+            <li><a href="service_clearinghouseSetup.html">EHR, PM & Clearing House Setup</a></li>
+            <li><a href="service_transactionSetup.html">Electronic Transactions</a></li>
+            <li><a href="service_revenueCycle.html">Revenue Cycle Management</a></li>
+          </ul>
+        </div>
+
+        <div class="question-box">
+          <h3>ANY QUESTIONS?</h3>
+          <p style="font-size: 1rem">
+            If you have any questions or concerns, please don't hesitate to
+            reach out. Our support team is always here to assist you.
+          </p>
+          <form id="questionForm">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="E-mail" required />
+            <input type="text" id="phone" placeholder="Telephone" required />
+            <textarea id="message" placeholder="Message" required></textarea>
+
+            <input type="checkbox" id="agree" required />&nbsp;
+            <label for="agree"
+              >I agree with the storage and handling of my data.
+            </label>
+
+            <button type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+      <div class="description">
+        <h2>ELECTRONIC TRANSACTONS</h2>
+        <p>
+          electronic-transactions-Official paperwork is the bane of our lives.
+          After a long day, the last thing you need is a stack of forms to fill
+          out. A considerable proportion of situations involving payment delays
+          and claim denials are the result of incorrect enrollment. When we
+          onboard your practice, we ensure that your EDI, ERA, and EFT are
+          properly configure.
+        </p>
+        <br />
+        <p>
+          electronic-transactions-We assign a team of professionals who are
+          experience in filling out the forms and applications. Though at the
+          outset it may look like a simple task, it requires a sharp eye for
+          detail as a missing number can cause significant delays in the
+          reimbursements.
+        </p>
+        <br />
+        <br />
+        <h2>HOW WE WORK</h2>
+        <div class="HWW">
+          <div class="line"></div>
+          <div class="HWW-item">
+            <div class="overlay" id="first"></div>
+            <div class="icon-div">
+              <i class="fa-solid fa-desktop icon"></i>
+            </div>
+            <div class="text-div">
+              <h4>1. EDI Enrollment</h4>
+              <p>
+                Depending upon the clearing house and insurance company,
+                sometimes EDI enrollment is required to submit the claims
+                electronically. Basically, it’s the process to let the insurance
+                company know that provider will be using this clearinghouse to
+                submit the claims. It smooths the path of your medical claim to
+                the payer’s system and ensures that your claim hits the payer
+                system in the first go and reimbursements are not delayed.
+              </p>
+            </div>
+          </div>
+          <div class="HWW-item">
+            <div class="overlay" id="second"></div>
+            <div class="icon-div">
+              <i class="fa-solid fa-handshake icon"></i>
+            </div>
+            <div class="text-div">
+              <h4>2. ERA Enrollment</h4>
+              <p>
+                ERA is the electronic form of EOB and can be enrolled to gain
+                faster results of your claims submissions. It is receive
+                directly in the clearinghouse and reduces the hassle of paper
+                EOBs delivered to the provider’s mailing address. Inaccurate
+                enrollment setup might result in a huge workload and delays when
+                you manually go through all paper checks and EOBs (Explanation
+                of Benefits).
+              </p>
+            </div>
+          </div>
+          <div class="HWW-item">
+            <div class="overlay" id="third"></div>
+            <div class="icon-div">
+              <i class="fa-solid fa-dollar-sign icon"></i>
+            </div>
+            <div class="text-div">
+              <h4>3. EFT Enrollment</h4>
+              <p>
+                EFT is simply the electronic transfer of payments from an
+                insurance company to a provider. EFTs never go through
+                clearinghouses. We make every effort to keep your medical
+                practice as paperless as feasible. This guarantees that all of
+                your electronic fund transfers run smoothly and that the
+                difficulties of dealing with paper checks and EOBs avoid. You
+                get your money much faster, and the billing team is in an
+                accounting heaven.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="Solutions">
+          <h2>SOFTWARE FLEXIBLE SOLUTIONS</h2>
+          <p>
+            We have experience in using almost every EHR and Practice Management
+            platform so you don’t need transition to a new system to work with
+            us.
+          </p>
+          <div class="carousel">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="3"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="4"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="5"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="6"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="7"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="8"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="9"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="10"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="11"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="12"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="13"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="14"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image1.png"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image2.png"
+                    alt="Second slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image3.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image4.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image5.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image6.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image7.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image8.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image9.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image10.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image11.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image12.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image13.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image14.png"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/images/assets_transationSetup/image15.png"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="consult">
+          <h2>HURRY UP! CONTACT US TODAY AND GET</h2>
+          <h1>FREE FIRST CONSULTATION</h1>
+          <button>BOOK YOUR CONSULTATION</button>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar second">
+      <div class="services">
+        <h3>OUR SERVICES</h3>
+        <ul class="services-list">
+          <li><a href="service_credential.html">Credentialing and Contracting</a></li>
+          <li><a href="service_clearinghouseSetup.html">EHR, PM & Clearing House Setup</a></li>
+          <li><a href="service_transactionSetup.html">Electronic Transactions</a></li>
+          <li><a href="service_revenueCycle.html">Revenue Cycle Management</a></li>
+        </ul>
+      </div>
+
+      <div class="question-box">
+        <h3>ANY QUESTIONS?</h3>
+        <p style="font-size: 1rem; font-weight: 100">
+          If you have any questions or concerns, please don't hesitate to reach
+          out. Our support team is always here to assist you.
+        </p>
+        <form id="questionForm">
+          <input type="text" id="name" placeholder="Name" required />
+          <input type="email" id="email" placeholder="E-mail" required />
+          <input type="text" id="phone" placeholder="Telephone" required />
+          <textarea id="message" placeholder="Message" required></textarea>
+
+          <input type="checkbox" id="agree" required />
+          <label for="agree"
+            >I agree with the storage and handling of my data.
+          </label>
+
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+          <!-- About section -->
+          <div class="footer-section about">
+            <a href="index.html" class="logo">
+              <img src="/images/ccbs.png" alt="CCBS Logo" />
+            </a>
+            <p>Providing end-to-end transparent solutions for our clients.</p>
+            <button class="footer-button">Get Free Consultation</button>
+          </div>
+      
+          <!-- Contact Info -->
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p><strong>Address:</strong> 4550 Central Ave NE, Minneapolis, MN 55421</p>
+            <p><strong>Hours:</strong> Mon - Fri: 8 AM - 5 PM CST</p>
+            <p><strong>Phone:</strong> <a href="tel:5308686944">530-868-6944</a></p>
+          </div>
+      
+          <!-- Services -->
+          <div class="footer-section services">
+            <h3>Our Services</h3>
+            <ul>
+              <li><a href="service_credential.html">Credentialing & Contracting</a></li>
+              <li><a href="service_clearinghouseSetup.html">EHR & Clearinghouse Setup</a></li>
+              <li><a href="service_transactionSetup.html">Electronic Transactions</a></li>
+              <li><a href="service_revenueCycle.html">Revenue Cycle Management</a></li>
+            </ul>
+          </div>
+      
+          <!-- Social Media -->
+          <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 CC Billing Solutions LLC. All Rights Reserved.</p>
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </div>
+      </footer>
+
+    <script>
+        // Toggle the overlay on clicking the menu button
+        const menuToggler = document.getElementById("menu-toggler");
+        const overlay = document.getElementById("overlay");
+        const closeBtn = document.getElementById("close-btn");
+        const mainNavbar = document.getElementById("main-navbar");
+  
+        menuToggler.addEventListener("click", () => {
+          overlay.classList.add("active");
+          mainNavbar.style.opacity = ".9";
+        });
+  
+        closeBtn.addEventListener("click", () => {
+          overlay.classList.remove("active");
+          mainNavbar.style.opacity = "1";
+        });
+  
+        // Add active class to nav links when clicked
+        document.querySelectorAll(".nav-link").forEach((link) => {
+          link.addEventListener("click", (e) => {
+            e.currentTarget.classList.add("active");
+          });
+        });
+  
+        // Toggle dropdown for services
+        document
+          .getElementById("services-link")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            const dropdown = document.getElementById("services-dropdown");
+            dropdown.classList.toggle("active");
+            this.classList.toggle("active");
+          });
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MADE BY FAZAL -->
+     
+  </body>
 </html>

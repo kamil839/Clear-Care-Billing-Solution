@@ -7,7 +7,7 @@ body {
   color: #333;
 }
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -17,7 +17,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
   padding: 20px;
-  background: #3b0337;
+  background: #3F7B70;
   color: #fff;
   border-radius: 10px;
 }
@@ -47,7 +47,7 @@ body {
 }
 .news-header h2 {
   font-size: 1.5rem;
-  color: #3b0337;
+  color: #1f6457;
 }
 .news-header .underline {
   display: block;

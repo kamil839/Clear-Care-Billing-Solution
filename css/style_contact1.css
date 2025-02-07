@@ -1,0 +1,26 @@
+.box1{
+         width: 40vw;
+         
+}
+.box2{
+    width: 40vw;
+}
+
+.container{
+    gap: 10px;
+}
+
+body{
+     font-family:Roboto;
+
+    
+}
+
+.form-control{
+    margin-top: 7px;
+}
+
+.check{
+    margin-right: 10px;
+}
+

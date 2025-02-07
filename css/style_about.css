@@ -4,7 +4,7 @@ body {
     background-color: #f8f9fa;
   }
   
-  .navbar{
+  /* .navbar{
     background: linear-gradient(45deg, #3A3960, #154168);
     color: white;
     padding: 0.8rem 1rem;
@@ -79,10 +79,10 @@ body {
   .navbar-toggler:hover {
     transform: rotate(90deg);
   }
+   */
   
   
-  
-  @media (max-width: 992px) {
+  /* @media (max-width: 992px) {
     .contact-number {
         font-size: 0.9rem;
     }
@@ -114,8 +114,8 @@ body {
         height: 40px;
     }
   }
-  
-  @media (max-width: 576px) {
+   */
+  /* @media (max-width: 576px) {
     .contact-number {
         font-size: 0.75rem;
     }
@@ -124,7 +124,7 @@ body {
         font-size: 0.85rem;
         margin: 0 0.3rem;
     }
-  }
+  } */
   
   
   /* Variables */
@@ -140,7 +140,7 @@ body {
   /* About Section */
   
   header {
-    background-color: #373660;
+    background-color: #2b685d;
     color: white;
     text-align: start;
     padding-top: 7rem;
@@ -319,7 +319,7 @@ body {
   
   .expand-btn {
     display: inline-block;
-    background-color: #003366;
+    background-color: #3F7B70;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -358,7 +358,7 @@ body {
   }
   
   .stat {
-    background-color: #2d2d4e;
+    background-color: #3F7B70;;
     border-radius: 10px;
     text-align: center;
     padding: 15px;
@@ -368,7 +368,7 @@ body {
   
   .stat:hover {
     transform: translateY(-10px);
-    background-color: #4e4e7f;
+    background-color: #2b685d;;
   }
   
   .stat-icon {
@@ -854,86 +854,4 @@ body {
   
   
   
-  /* footer */
-  footer {
-  background-color: #373660; /* Navy blue background */
-  color: white; /* White text for contrast */
-  padding: 20px 10%; /* Space around the footer */
-  display: flex; /* Flexbox for layout */
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
-  justify-content: space-between; /* Distribute sections evenly */
-  }
   
-  /* Individual footer section styling */
-  .footer-section {
-  flex: 1 1 300px; /* Flexible width with a minimum size */
-  margin: 10px; /* Space around each section */
-  }
-  
-  /* Section title styling */
-  .footer-section h3 {
-  color: #faffc6; /* Bright yellow for emphasis */
-  margin-bottom: 10px; /* Space below the title */
-  }
-  
-  /* Links in footer sections */
-  .footer-section a {
-  color: white; /* Match footer text color */
-  text-decoration: none; /* Remove underline */
-  display: block; /* Block display for spacing */
-  margin-bottom: 5px; /* Space between links */
-  }
-  
-  /* Hover effect for links */
-  .footer-section a:hover {
-  text-decoration: underline; /* Add underline on hover */
-  }
-  
-  /* Social media icons */
-  .footer-section .social-icons a {
-  display: inline-block; /* Inline layout for icons */
-  margin-right: 10px; /* Space between icons */
-  font-size: 18px; /* Adjust icon size */
-  color: #faffc6;
-  }
-  
-  /* Paragraph styling in footer */
-  .footer-section p {
-  margin: 5px 0; /* Space around paragraphs */
-  }
-  
-  /* Button styling */
-  .footer-button {
-  background-color: #faffc6; /* Bright yellow background */
-  color: #1f3a66; /* Navy text for contrast */
-  padding: 10px 20px; /* Padding inside the button */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  text-transform: uppercase; /* Uppercase text */
-  font-weight: bold; /* Bold text */
-  }
-  
-  /* Button hover effect */
-  .footer-button:hover {
-  background-color: #faffc6; /* Slightly darker yellow */
-  }
-  
-  /* Footer bottom section */
-  .footer-bottom {
-  text-align: center; /* Center align text */
-  margin-top: 20px; /* Space above */
-  border-top: 1px solid #4d6b99; /* Subtle top border */
-  padding-top: 10px; /* Space above content */
-  }
-  
-  /* Responsive styling for smaller screens */
-  @media (max-width: 768px) {
-  footer {
-      flex-direction: column; /* Stack sections vertically */
-      align-items: center; /* Center align content */
-  }
-  }
-  .footer-section .navbar-brand img{
-  height: 100px;
-  }

@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About CCBS</title>
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/style_about.css" />
-    <link rel="stylesheet" href="/css/style_footer.css">
-    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,97 +14,105 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/css/style_about.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/style_footer.css" />
+    <link rel="stylesheet" href="./css/font.css" />
   </head>
 
   <body>
-     <!-- Main Navbar -->
-     <nav
-     class="navbar navbar-expand-xxl"
-     style="position: sticky; top: 0; z-index: 1; width: 100%"
-   >
-     <div class="container-fluid">
-       <a class="navbar-brand" href="index.html">
-         <img src="./images/logo.png" alt="Logo" />
-       </a>
+    <!-- Main Navbar -->
+    <nav
+      class="navbar navbar-expand-xxl px-5"
+      style="position: sticky; top: 0; z-index: 1; width: 100%"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo1.png" alt="Logo" />
+        </a>
 
-       <div class="d-flex align-items-center">
-         <span class="contact-number">530-868-6944</span>
-         <div class="social-icons">
-           <a href="#"><i class="fab fa-facebook"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
-         </div>
-       </div>
+        <div class="d-flex align-items-center">
+          <span class="contact-number">530-868-6944</span>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
 
-       <button
-         class="navbar-toggler"
-         type="button"
-         data-bs-toggle="collapse"
-         data-bs-target="#navbarNav"
-         aria-controls="navbarNav"
-         aria-expanded="false"
-         aria-label="Toggle navigation"
-       >
-         <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-       </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
 
-       <div class="collapse navbar-collapse" id="navbarNav">
-         <ul class="navbar-nav ms-auto">
-           <li class="nav-item">
-             <a class="nav-link" href="index.html"
-               ><i class="fas fa-home"></i> Home</a
-             >
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="about.html"
-               ><i class="fas fa-info-circle"></i> About CCBS</a
-             >
-           </li>
-           <li class="nav-item dropdown">
-             <a
-               class="nav-link dropdown-toggle"
-               href="services.html"
-               id="servicesDropdown"
-               role="button"
-               data-bs-toggle="dropdown"
-               aria-expanded="false"
-             >
-               <i class="fas fa-briefcase"></i> Our Services
-             </a>
-             <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-               <li>
-                 <a class="dropdown-item" href="service_credential.html"
-                   >Credentialing & Contracting</a
-                 >
-               </li>
-               <li>
-                 <a
-                   class="dropdown-item"
-                   href="service_clearinghouseSetup.html"
-                   >EHR, PM & Clearing House Setup</a
-                 >
-               </li>
-               <li>
-                 <a class="dropdown-item" href="service_transactionSetup.html"
-                   >Electronic Transaction</a
-                 >
-               </li>
-               <li>
-                 <a class="dropdown-item" href="service_revenueCycle.html"
-                   >Revenue Cycle Management</a
-                 >
-               </li>
-             </ul>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="compliance.html"
-               ><i class="fas fa-check-circle"></i> Compliances</a
-             >
-           </li>
-           <!-- <li class="nav-item">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"
+                ><i class="fas fa-info-circle"></i> About CCBS</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="services.html"
+                id="servicesDropdown"
+                role="button"
+              >
+                <i class="fas fa-briefcase"></i> Our Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="service_credential.html"
+                    >Credentialing & Contracting</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="service_clearinghouseSetup.html"
+                    >EHR, PM & Clearing House Setup</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="service_transactionSetup.html"
+                    >Electronic Transaction</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="service_revenueCycle.html"
+                    >Revenue Cycle Management</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compliance.html"
+                ><i class="fas fa-check-circle"></i> Compliances</a
+              >
+            </li>
+            <!-- <li class="nav-item">
              <a class="nav-link" href="#"
                ><i class="fas fa-newspaper"></i> News & Blogs</a
              >
@@ -116,22 +122,28 @@
                ><i class="fas fa-star"></i> Testimonials</a
              >
            </li> -->
-           <li class="nav-item">
-             <a class="nav-link" href="contact.html"
-               ><i class="fas fa-phone"></i> Contact</a
-             >
-           </li>
-         </ul>
-       </div>
-     </div>
-   </nav>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><i class="fas fa-phone"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- About Section -->
 
-    <header>
-      <h2 style="padding: 0.2rem">About CC Billing Solutions</h2>
-    </header>
-    <main>
+    <div class="About-header">
+      <div class="About-content">
+        <h1>About Us</h1>
+        <div class="nav-anchor">
+          <a href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+          <a href="about.html">About CCBS</a>
+        </div>
+      </div>
+    </div>
+    <main style="max-width: 1400px; margin: 3rem auto">
       <section class="who-we-are">
         <h2>Who We Are?</h2>
         <p>
@@ -173,7 +185,7 @@
       </section>
     </main>
 
-    <div class="director-desk">
+    <div class="director-desk" style="max-width: 1400px; margin: 3rem auto">
       <h2>From the Director of Operations' Desk</h2>
       <p class="hidden" id="content">
         CCBS Solutions is one of the few Billing Companies that provides
@@ -194,19 +206,25 @@
       <button class="expand-btn" id="toggle-btn">Read More</button>
     </div>
 
-    <div class="stats-container">
+    <div class="stats-container" style="max-width: 1400px; margin: 3rem auto">
       <div class="stat">
-        <div class="stat-icon"><img src="./images/src_about/1.jpg" alt="States" /></div>
+        <div class="stat-icon">
+          <img src="./images/src_about/1.jpg" alt="States" />
+        </div>
         <div class="stat-number">35</div>
         <div class="stat-label">States</div>
       </div>
       <div class="stat">
-        <div class="stat-icon"><img src="./images/src_about/2 (1).jpeg.jpg" alt="Clients" /></div>
+        <div class="stat-icon">
+          <img src="./images/src_about/2 (1).jpeg.jpg" alt="Clients" />
+        </div>
         <div class="stat-number">912</div>
         <div class="stat-label">Happy Clients</div>
       </div>
       <div class="stat">
-        <div class="stat-icon"><img src="./images/src_about/1.jpg" alt="Experts" /></div>
+        <div class="stat-icon">
+          <img src="./images/src_about/1.jpg" alt="Experts" />
+        </div>
         <div class="stat-number">586</div>
         <div class="stat-label">Experts</div>
       </div>
@@ -214,7 +232,7 @@
 
     <!-- Why Choose Us  -->
 
-    <section class="container">
+    <section class="container" style="max-width: 1400px; margin: 3rem auto">
       <div class="content">
         <h1 style="color: #373660">WHY CHOOSE US?</h1>
         <p style="text-align: center">
@@ -226,7 +244,10 @@
           and more.
         </p>
         <div class="image-container">
-          <img src="./images/src_about/whychooseus.jpeg.jpg" alt="Why Choose Us Image" />
+          <img
+            src="./images/src_about/whychooseus.jpeg.jpg"
+            alt="Why Choose Us Image"
+          />
         </div>
         <div class="benefits">
           <div class="benefit" data-benefit="Income Growth">
@@ -266,7 +287,7 @@
     </section>
 
     <!-- A word From CEO -->
-    <div class="card-container">
+    <div class="card-container" style="max-width: 1400px; margin: 3rem auto">
       <div class="card">
         <h1>A Word from CEO</h1>
         <p>
@@ -280,7 +301,7 @@
 
     <!-- Team Members -->
 
-    <section class="team-section">
+    <section class="team-section" style="max-width: 1400px; margin: 3rem auto">
       <h1 class="team-title">OUR TEAM IS OUR MOST VALUABLE ASSET!</h1>
       <p class="team-description">
         About Us - Our team at <span class="company-name">CCBS</span> is our
@@ -466,26 +487,42 @@
           <p>Providing end-to-end transparent solutions for our clients.</p>
           <button class="footer-button">Get Free Consultation</button>
         </div>
-    
+
         <!-- Contact Info -->
         <div class="footer-section contact">
           <h3>Contact Us</h3>
-          <p><strong>Address:</strong> 4550 Central Ave NE, Minneapolis, MN 55421</p>
+          <p>
+            <strong>Address:</strong> 4550 Central Ave NE, Minneapolis, MN 55421
+          </p>
           <p><strong>Hours:</strong> Mon - Fri: 8 AM - 5 PM CST</p>
-          <p><strong>Phone:</strong> <a href="tel:5308686944">530-868-6944</a></p>
+          <p>
+            <strong>Phone:</strong> <a href="tel:5308686944">530-868-6944</a>
+          </p>
         </div>
-    
+
         <!-- Services -->
         <div class="footer-section services">
           <h3>Our Services</h3>
           <ul>
-            <li><a href="service_credential.html">Credentialing & Contracting</a></li>
-            <li><a href="service_clearinghouseSetup.html">EHR & Clearinghouse Setup</a></li>
-            <li><a href="service_transactionSetup.html">Electronic Transactions</a></li>
-            <li><a href="service_revenueCycle.html">Revenue Cycle Management</a></li>
+            <li>
+              <a href="service_credential.html">Credentialing & Contracting</a>
+            </li>
+            <li>
+              <a href="service_clearinghouseSetup.html"
+                >EHR & Clearinghouse Setup</a
+              >
+            </li>
+            <li>
+              <a href="service_transactionSetup.html"
+                >Electronic Transactions</a
+              >
+            </li>
+            <li>
+              <a href="service_revenueCycle.html">Revenue Cycle Management</a>
+            </li>
           </ul>
         </div>
-    
+
         <!-- Social Media -->
         <div class="footer-section social">
           <h3>Follow Us</h3>
@@ -495,7 +532,7 @@
           </div>
         </div>
       </div>
-    
+
       <!-- Footer Bottom -->
       <div class="footer-bottom">
         <p>&copy; 2025 CC Billing Solutions LLC. All Rights Reserved.</p>
@@ -524,8 +561,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-
-
-
-
-

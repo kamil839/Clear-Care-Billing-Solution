@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #carousel {
   position: relative;
   color: white;
@@ -34,7 +38,7 @@ img {
   top: 0%;
   margin: 2.2rem 2.5rem;
   width: 60%;
-  background-color: rgba(31, 54, 92, 0.3);
+  background-color: rgba(55, 151, 119, 0.3);
   backdrop-filter: blur(30px);
   padding: 1.5rem 5rem 1.5rem min(3.5rem, 8%);
   border-radius: 0.5rem;
@@ -65,17 +69,17 @@ img {
   width: 6rem;
   font-size: 1rem;
   padding: 5px;
-  color: rgb(232, 173, 54);
-  border: 1px solid rgb(232, 173, 54);
-  background-color: #1f365c;
+  color: #fcfaee;
+  border: 1px solid #fcfaee;
+  background-color: #113d4a;
   border-radius: 5px;
   transition: 0.2s;
   cursor: pointer;
 }
 
 #btn-View:hover {
-  color: #1f365c;
-  background-color: rgb(232, 173, 54);
+  color: #113d4a;
+  background-color: #fcfaee;
   font-weight: 600;
 }
 
@@ -83,7 +87,7 @@ img {
   height: 0.3rem;
   width: 70%;
   border-radius: 1rem;
-  background-color: rgb(232, 173, 54);
+  background-color: rgb(236, 171, 41);
 }
 
 .carousel-indicators {
@@ -141,7 +145,7 @@ img {
   text-align: center;
   font-weight: 700;
   margin-bottom: 2rem;
-  color: #1f365c;
+  color: #113d4a;
 }
 
 .card-para {

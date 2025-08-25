@@ -1,26 +1,20 @@
-.box1{
-         width: 40vw;
-         
-}
-.box2{
-    width: 40vw;
-}
-
-.container{
-    gap: 10px;
-}
-
-body{
-     font-family:Roboto;
-
-    
+.container {
+  gap: 10px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  width: 100%;
+  @media (width <= 768px) {
+    grid-template-columns: 1fr;
+  }
 }
 
-.form-control{
-    margin-top: 7px;
+.form-control {
+  margin-top: 7px;
 }
 
-.check{
-    margin-right: 10px;
+.check {
+  margin-right: 10px;
 }
-

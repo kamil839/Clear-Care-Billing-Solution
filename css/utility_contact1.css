@@ -1,46 +1,41 @@
-
-
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.justify-center{
-   justify-content: center;
+.justify-center {
+  justify-content: center;
 }
 
-.items-center{
-align-items: center;
-
+.items-center {
+  align-items: center;
 }
 
-.font{
-    color: rgb(39, 39, 120);
+.font {
+  color: rgb(39, 39, 120);
 }
 
-.gap{
-    margin-top: 7px;
+.gap {
+  margin-top: 7px;
 }
 
-.s-m{
-    font-size: medium;
+.s-m {
+  font-size: medium;
 }
 
-.s-s{
-    font-size: small;
+.s-s {
+  font-size: small;
 }
 
-.g1{
-    margin-top: 30px;
-
+.g1 {
+  margin-top: 30px;
 }
 
-.b-b-m{
-          color: rgb(44, 44, 107);
-          font-size: medium;
-          font-weight: bold;
-          
+.b-b-m {
+  color: rgb(44, 44, 107);
+  font-size: medium;
+  font-weight: bold;
 }
 
-.img-p{
-    padding-right: 10px;
+.img-p {
+  padding-right: 10px;
 }

@@ -32,8 +32,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -43,22 +45,23 @@
 
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/styles_service.css" />
-    <link rel="stylesheet" href="./css/style_footer.css" />
     <link rel="stylesheet" href="./css/style_kamil.css" />
     <link rel="stylesheet" href="./css/style_fazal.css" />
-    <link rel="stylesheet" href="./css/style_Danish.css">
-    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style_Danish.css" />
+    <link rel="stylesheet" href="./css/style_footer.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
   </head>
   <body>
     <!-- Irfan's  First Section Starts here -->
     <!-- Main Navbar -->
     <nav
-      class="navbar navbar-expand-xxl"
-      style="position: sticky; top: 0; z-index: 1; width: 100%"
+      class="navbar navbar-expand-xxl px-5"
+      style="position: sticky; top: 0; z-index: 100; width: 100%"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="./images/logo.png" alt="Logo" />
+          <img src="./images/logo1.png" alt="Logo" />
         </a>
 
         <div class="d-flex align-items-center">
@@ -95,12 +98,10 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link"
                 href="services.html"
                 id="servicesDropdown"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 <i class="fas fa-briefcase"></i> Our Services
               </a>
@@ -214,7 +215,7 @@
               commitment to compliance and outstanding customer service is
               unrivalled in the industry.
             </p>
-              <button id="btn-View">View More</button>
+            <button id="btn-View">View More</button>
           </div>
         </div>
         <div class="carousel-item" id="item4">
@@ -264,7 +265,7 @@
       </div>
       <span class="welcomeservice"></span>
       <div class="row" id="info">
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <!--First card having title About zmed-->
           <div class="mb-4" id="aboutzmed">
             <img class="card-img-top" src="/images/about.png" alt="" />
@@ -298,7 +299,7 @@
         </div>
 
         <!--Second card increase avenue-->
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="mb-4">
             <div class="card-body">
               <div class="boxes">
@@ -368,13 +369,12 @@
         </div>
 
         <!--Third row card Kaleem a Qadri-->
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="card mb-4" id="person">
             <center>
               <img
-                class="card rounded-circle"
-                width="60%"
-                src="/images/Screenshot 2024-02-13 205244.png"
+                class="rounded-circle"
+                src="./images/Screenshot 2024-02-13 205244.png"
                 alt=""
               />
             </center>
@@ -403,7 +403,7 @@
     <div id="benefits">
       <div class="card">
         <i class="ri-money-dollar-circle-fill card-icon"></i>
-        <h3 class="card-head">A Low-Cost Solution</h3>
+        <h3 class="card-head" style="color: #275a5d">A Low-Cost Solution</h3>
         <p class="card-para">
           When you use our Billing Services, you will have access to the finest
           services and more. Our medical billing specialists can relieve the
@@ -414,7 +414,7 @@
       </div>
       <div class="card">
         <i class="ri-group-2-fill card-icon"></i>
-        <h3 class="card-head">Dedicated Team</h3>
+        <h3 class="card-head" style="color: #275a5d">Dedicated Team</h3>
         <p class="card-para">
           Our staff is our most valuable asset! The team is always in excellent
           hands when it comes to delivering because it is led by industry known
@@ -424,7 +424,9 @@
       </div>
       <div class="card">
         <i class="ri-time-fill card-icon"></i>
-        <h3 class="card-head">Knowledgeable, Constant Support</h3>
+        <h3 class="card-head" style="color: #275a5d">
+          Knowledgeable, Constant Support
+        </h3>
         <p class="card-para">
           At Zmed Solutions, we process all the claims fast and efficiently,
           resolving any issues that arise with verifiable narratives. Our
@@ -434,7 +436,9 @@
       </div>
       <div class="card">
         <i class="ri-checkbox-circle-fill card-icon"></i>
-        <h3 class="card-head">Flexible Pricing Models</h3>
+        <h3 class="card-head" style="color: #275a5d">
+          Flexible Pricing Models
+        </h3>
         <p class="card-para">
           We have created distinct and adaptable price options, including
           Fixed-Monthly-Fee pricing, Pay-Per-Claim pricing, and the more
@@ -551,47 +555,58 @@
     <section class="container">
       <!-- Manager Intro Section -->
       <div class="intro">
-        <img src="./images/src/3.jpg" alt="Manager Profile" class="profile-img">
+        <img
+          src="./images/src/3.jpg"
+          alt="Manager Profile"
+          class="profile-img"
+        />
         <h1>Danish Mughal</h1>
         <h2>Director Marketing at Clear Care Billing Solutions</h2>
         <p>
-          Clear Care Billing Solutions is distinct from other physician billing services,
-          primarily because our internally developed system ensures that you
-          receive unparalleled attention, results, and detailed reports.
+          Clear Care Billing Solutions is distinct from other physician billing
+          services, primarily because our internally developed system ensures
+          that you receive unparalleled attention, results, and detailed
+          reports.
         </p>
       </div>
-  
+
       <!-- Recent News Section -->
       <div class="news-header">
         <h2>Recent News & Events</h2>
         <span class="underline"></span>
       </div>
-  
+
       <!-- Cards Section -->
       <div class="cards">
         <div class="card">
-          <img src="./images/src/4.avif" alt="News 1">
-          <h3><a href="#">Top-Notch Medical Billing Services in California</a></h3>
+          <img src="./images/src/4.avif" alt="News 1" />
+          <h3>
+            <a href="#">Top-Notch Medical Billing Services in California</a>
+          </h3>
           <p>
-            Efficient medical billing is crucial for ensuring financial stability
-            of practices and optimizing revenue cycles.
+            Efficient medical billing is crucial for ensuring financial
+            stability of practices and optimizing revenue cycles.
           </p>
           <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-  
+
         <div class="card">
-          <img src="./images/src/5.avif" alt="News 2">
-          <h3><a href="#">Billing Services in Oregon: Maximizing Efficiency</a></h3>
+          <img src="./images/src/5.avif" alt="News 2" />
+          <h3>
+            <a href="#">Billing Services in Oregon: Maximizing Efficiency</a>
+          </h3>
           <p>
-            Oregon’s healthcare industry demands billing services that can navigate
-            the intricacies of modern medical billing.
+            Oregon’s healthcare industry demands billing services that can
+            navigate the intricacies of modern medical billing.
           </p>
           <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-  
+
         <div class="card">
-          <img src="./images/src/6.avif" alt="News 3">
-          <h3><a href="#">Perfect Medical Billing Solutions in Washington</a></h3>
+          <img src="./images/src/6.avif" alt="News 3" />
+          <h3>
+            <a href="#">Perfect Medical Billing Solutions in Washington</a>
+          </h3>
           <p>
             Efficient medical billing solutions are essential for maintaining
             smooth operations and financial stability.
@@ -600,7 +615,6 @@
         </div>
       </div>
     </section>
-
 
     <!-- Irfan's  Second Section Stars here -->
     <footer>
@@ -613,26 +627,42 @@
           <p>Providing end-to-end transparent solutions for our clients.</p>
           <button class="footer-button">Get Free Consultation</button>
         </div>
-    
+
         <!-- Contact Info -->
         <div class="footer-section contact">
           <h3>Contact Us</h3>
-          <p><strong>Address:</strong> 4550 Central Ave NE, Minneapolis, MN 55421</p>
+          <p>
+            <strong>Address:</strong> 4550 Central Ave NE, Minneapolis, MN 55421
+          </p>
           <p><strong>Hours:</strong> Mon - Fri: 8 AM - 5 PM CST</p>
-          <p><strong>Phone:</strong> <a href="tel:5308686944">530-868-6944</a></p>
+          <p>
+            <strong>Phone:</strong> <a href="tel:5308686944">530-868-6944</a>
+          </p>
         </div>
-    
+
         <!-- Services -->
-        <div class="footer-section services">
+        <div class="footer-section footer-services">
           <h3>Our Services</h3>
           <ul>
-            <li><a href="service_credential.html">Credentialing & Contracting</a></li>
-            <li><a href="service_clearinghouseSetup.html">EHR & Clearinghouse Setup</a></li>
-            <li><a href="service_transactionSetup.html">Electronic Transactions</a></li>
-            <li><a href="service_revenueCycle.html">Revenue Cycle Management</a></li>
+            <li>
+              <a href="service_credential.html">Credentialing & Contracting</a>
+            </li>
+            <li>
+              <a href="service_clearinghouseSetup.html"
+                >EHR & Clearinghouse Setup</a
+              >
+            </li>
+            <li>
+              <a href="service_transactionSetup.html"
+                >Electronic Transactions</a
+              >
+            </li>
+            <li>
+              <a href="service_revenueCycle.html">Revenue Cycle Management</a>
+            </li>
           </ul>
         </div>
-    
+
         <!-- Social Media -->
         <div class="footer-section social">
           <h3>Follow Us</h3>
@@ -642,14 +672,13 @@
           </div>
         </div>
       </div>
-    
+
       <!-- Footer Bottom -->
       <div class="footer-bottom">
         <p>&copy; 2025 CC Billing Solutions LLC. All Rights Reserved.</p>
         <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
       </div>
     </footer>
-    
 
     <script>
       // Toggle the overlay on clicking the menu button

@@ -1,111 +1,124 @@
-body{
+body {
   overflow-x: hidden;
 }
 #Welcome {
-    width: 100vw;
-    background-color: #eaefe9;
+  width: 100vw;
+  background-color: #eaefe9;
+}
+#title {
+  color: #113d4a;
+  text-align: center;
+  padding: 35px 15px 20px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.welcomeservice {
+  display: block;
+  max-width: 100%;
+  border-style: solid;
+  border-bottom-width: 5px;
+  width: 400px;
+  margin: 0px auto;
+  border-color: #e9b712;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  margin-bottom: 30px;
+}
+#info {
+  display: flex;
+  justify-content: space-between;
+  padding: max(5vw, 1rem);
+}
+
+.row {
+  max-width: 100%;
+}
+
+#title h2 {
+  font-size: clamp(1.7rem, 5vw, 2.5rem);
+}
+
+#Welcome h4,
+h5,
+h6 {
+  color: #113d4a;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+}
+.foricon {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  min-width: 40px;
+  min-height: 40px;
+  padding-top: 8px;
+  text-align: center;
+  background-color: #e9b712;
+  color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.label {
+  margin-bottom: 20px;
+}
+.card-body p,
+h4,
+h5,
+button {
+  margin-top: 10px;
+}
+.card-body p {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.bodypara {
+  margin-top: 10px;
+  line-height: 30px;
+}
+#aboutbtn {
+  background-color: #e9b712;
+  border-radius: none;
+  border: none;
+  font-size: small;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+.card-body {
+  padding: 20px 15px 30px;
+}
+.boxes {
+  padding: 0px 0px 20px;
+  margin-bottom: 30px;
+}
+.boxes p {
+  margin: 10px 0px 0px;
+  font-size: medium;
+  padding-left: 10px;
+}
+#person {
+  padding: 45px 10px 0px;
+}
+
+#person img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  @media (width <= 1100px) {
+    height: 120px;
+    width: 120px;
   }
-  #title {
-    color: rgb(9, 9, 102);
-    text-align: center;
-    padding: 35px 15px 20px;
-    padding-top: 50px;
-    text-transform: uppercase;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  .welcomeservice {
-    display: block;
-    max-width: 100%;
-    border-style: solid;
-    border-bottom-width: 5px;
-    width: 400px;
-    margin: 0px auto;
-    border-color: #e9b712;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    margin-bottom: 30px;
-  }
-  #info {
-    padding-top: 40px;
-    display: flex;
-    padding-left: 60px;
-    justify-content: space-between;
-    padding-right: 60px;
-  }
-  #aboutzmed {
-    padding: 35px 15px 10px;
-  }
-  #Welcome h4,
-  h5,
-  h6 {
-    color: rgb(9, 9, 102);
-    text-transform: uppercase;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-weight: 700;
-  }
-  .foricon {
-    display: flex;
-    align-items: center;
-  }
-  .icon {
-    width: 40px;
-    height: 40px;
-    background-color: #e9b712;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  .label {
-    margin-bottom: 20px;
-  }
-  .card-body p,
-  h4,
-  h5,
-  button {
-    margin-top: 10px;
-  }
-  .card-body p {
-    margin-top: 5px;
-    margin-bottom: 2px;
-  }
-  .bodypara {
-    margin-top: 10px;
-    line-height: 30px;
-  }
-  #aboutbtn {
-    background-color: #e9b712;
-    border-radius: none;
-    border: none;
-    font-size: small;
-    font-weight: 700;
-    margin-top: 50px;
-    margin-bottom: 45px;
-  }
-  .card-body {
-    padding: 20px 15px 30px;
-  }
-  .boxes {
-    padding: 0px 0px 20px;
-    margin-bottom: 30px;
-  }
-  .boxes p {
-    margin: 10px 0px 0px;
-    font-size: medium;
-    padding-left: 10px;
-  }
-  #person {
-    padding: 45px 10px 0px;
-  }
-  #person p {
-    padding-top: 15px;
-    text-align: center;
-    line-height: 30px;
-  }
-  .kaleem {
-    padding-top: none;
-    margin-top: none;
-  }
+}
+#person p {
+  padding-top: 15px;
+  text-align: center;
+  line-height: 30px;
+}
+.kaleem {
+  padding-top: none;
+  margin-top: none;
+}
